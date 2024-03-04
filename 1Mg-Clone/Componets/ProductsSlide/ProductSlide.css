@@ -1,0 +1,132 @@
+
+.sliderboxwholepro{
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.containersliderpro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    z-index: 2;
+  }
+  
+  .boxsliderpro:hover{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  .box-containersliderpro {
+    width: 98vw;
+    overflow: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  
+  
+ 
+  .buttonboxpro {
+    font-family: sans-serif;
+    position: absolute;
+    display: flex;
+    width: 98vw;
+    align-items: center;
+    height: 200px;
+    z-index: 2;
+    justify-content: space-between;
+    pointer-events: none;
+  }
+  
+@media (min-width: 700px) {
+    .boxsliderpro {
+        width: 15vw;
+        border-radius: 25px;
+        padding-top: 25px;
+        height: max-content + 5px;
+        padding-bottom: 25px;
+        background-color: #ffffff;
+        margin: 0 10px;
+        display: inline-block;
+        margin-bottom: 2px;
+      }
+      .boxsliderpro img {
+        width: 5vw;
+        margin-left: 5vw
+      }
+      
+      .buttonboxpro button {
+        height: 50px;
+        width: 50px;
+        align-self: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        background-color: rgb(255, 255, 255);
+        z-index: 3;
+        border-radius: 50px;
+        display: flex;
+        pointer-events: auto;
+        justify-content: center;
+      }
+      #textshopbypro {
+        margin-top: 25px;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        margin-left: 43px;
+        margin-bottom: -10px;
+      }
+      #textbox{
+        margin-left: 9px;
+        overflow: hidden;
+      }
+}
+
+@media (max-width: 700px) {
+    .boxsliderpro {
+        width: 190px;
+        border-radius: 25px;
+        height: max-content + 5px;
+        overflow: hidden;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 25px;
+        padding-bottom: 10px;
+        background-color: #ffffff;
+        margin: 0 10px;
+        display: inline-block;
+      }
+      .boxsliderpro img {
+        width: 20vw;
+        margin-left: 12vw;
+      }
+      .buttonboxpro button {
+        height: 30px;
+        width: 30px;
+        align-self: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        background-color: rgb(255, 255, 255);
+        z-index: 3;
+        border-radius: 50px;
+        display: flex;
+        pointer-events: auto;
+        justify-content: center;
+      }
+      #textshopbypro{
+        margin-top: 25px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin-left: 4px;
+        margin-bottom: -5px;
+      }
+      #textbox{
+          text-align: center;
+          
+      }
+}
+
+.Priceproducts{
+    margin-bottom: 10px;
+}
+
+.tittlenamepro{
+  text-align: center;
+}

@@ -1,0 +1,12 @@
+.footerboxtext{
+    margin-top: 25px;
+    text-align: left;
+    color: gray;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footerboxlast{
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}

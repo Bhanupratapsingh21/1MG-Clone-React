@@ -1,0 +1,151 @@
+#Wholeproductsbox{
+    display: flex;
+    justify-content: center;
+}
+
+   
+#productsbutton:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+   
+#productsbutton:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+   
+#productsbutton:disabled {
+    cursor: auto;
+    color: grey;
+}
+
+   
+#productsselect:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+   
+#productsselect:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+   
+#productsselect:disabled {
+    cursor: auto;
+    color: grey;
+}
+
+
+@media (min-width: 700px) {
+
+    .cardProducts {
+        width: 90vw;
+        height: max-content;
+        border:  1px solid red;
+        justify-content: center;
+        border-radius: 30px;
+        background: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .pricesectionsproducts{
+        padding-left: 25px;
+        justify-content: center;
+        margin-top: 25px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .pricesectionsproducts img{
+        margin-left: 8vw;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 15vw;
+    }
+    #productsbutton {
+        background-color: #eee;
+        border: none;
+        margin-right: 5px;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 15vw;
+        border-radius: 1rem;
+        color: lightcoral;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+    }
+    #productsselect {
+        background-color: #eee;
+        border: none;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 15vw;
+        margin-top: 10px;
+        margin-left: 1px;
+        border-radius: 1rem;
+        color: lightcoral;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .cardProducts {
+        width: 90vw;
+        height: max-content;
+        border:  1px solid red;
+        justify-content: center;
+        border-radius: 30px;
+        background: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .pricesectionsproducts{
+        padding-left: 15px;
+        justify-content: center;
+        margin-top: 25px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    .pricesectionsproducts img{
+        margin-left: 28vw;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 30vw;
+    }
+    #productsbutton {
+        background-color: #eee;
+        border: none;
+        margin-left:20px;
+        margin-right: px;
+        padding: 1rem;
+        font-size: 1rem;
+        width:35vw;
+        border-radius: 1rem;
+        color: lightcoral;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+    }
+    #productsselect {
+        background-color: #eee;
+        border: none;
+        margin-right: 5px;
+        padding: 1rem;
+        font-size: 1rem;
+        width: 35vw;
+        margin-top: 5px;
+        padding-right: 15px;
+        margin-left: 20px;
+        margin-right: 50px;
+        border-radius: 1rem;
+        color: lightcoral;
+        box-shadow: 0 0.4rem #dfd9d9;
+        cursor: pointer;
+    }
+}
